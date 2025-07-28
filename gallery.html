@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gallery Page</title>
+  <style>
+    .gallery-hero {
+      background: linear-gradient(to right, #ffe5ec, #d0f0f4);
+      text-align: center;
+      padding: 40px 20px;
+      border-radius: 20px;
+	font-size: 26pt; /* bumped from 24pt */
+	
+	background-image: url('abc_media/fallingToys2.png');
+	
+	
+
+
+    }
+
+
+
+.gallery-hero p {
+  font-size: 18pt; /* bumped from 16pt */
+}
+
+
+    .photo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .photo-card img {
+  width: 180px;
+  height: auto;
+  border-radius: 15px;
+  transition: transform 0.3s;
+  object-fit: cover;
+}
+
+
+    .photo-card:hover img {
+      transform: scale(1.05);
+    }
+
+
+
+
+
+  </style>
+</head>
+
+
+<body>
+
+<section class="gallery-hero">
+  Welcome to Our Gallery
+  <p>A peek into our joyful, nurturing environment.</p>
+
+<div style="margin-top: 25px; text-align: center;">
+  <a href="index.html" style="font-family: 'Palatino Linotype', serif; color: #3a6b5c; font-size: 16px; text-decoration: none; border: 1px solid #b7e2d1; padding: 8px 14px; border-radius: 8px; background-color: #e3f5ee; box-shadow: 0 2px 6px rgba(183, 226, 209, 0.3); display: inline-block;">
+    ⬅ Return to Welcome Page
+  </a>
+</div>
+</section>
+
+
+
+<section class="photo-grid">
+  
+  <div class="photo-card"><img src="abc_media/IMG_5417.png"></div>
+ <div class="photo-card"><img src="abc_media/IMG_2823.png"></div>
+	
+   
+   <video controls width="180">
+    <source src="abc_media/IMG_5611.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+<div class="photo-card"><img src="abc_media/IMG_6302.png" alt="mateo"></div>
+<div class="photo-card"><img src="abc_media/santa.png" alt="mateo"></div>
+<div class="photo-card"><img src="abc_media/IMG_6290.png" alt="mateo"></div>
+<div class="photo-card"><img src="abc_media/IMG_6308.png" alt="mateo"></div>
+<div class="photo-card"><img src="abc_media/child1.png" alt="Art Time"></div>
+<div class="photo-card"><img src="abc_media/IMG_3681.png" alt="Art Time"></div>
+<div class="photo-card"><img src="abc_media/IMG_2196.png" alt="Art Time"></div>
+  <!-- More images -->
+</section>
+
+  <!-- Your page content goes here -->
+
+<div style="margin-top: 25px; text-align: center;">
+  <a href="index.html" style="font-family: 'Palatino Linotype', serif; color: #3a6b5c; font-size: 16px; text-decoration: none; border: 1px solid #b7e2d1; padding: 8px 14px; border-radius: 8px; background-color: #e3f5ee; box-shadow: 0 2px 6px rgba(183, 226, 209, 0.3); display: inline-block;">
+    ⬅ Return to Welcome Page
+  </a>
+</div>
+</body>
+</html>
