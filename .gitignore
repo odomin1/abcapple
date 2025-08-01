@@ -1,0 +1,32 @@
+# Java and Eclipse
+.classpath
+.project
+.settings/
+.metadata/
+
+# Build artifacts
+target/
+bin/
+*.class
+*.jar
+*.war
+
+# Logs, temp files
+*.log
+*.tmp
+*.swp
+
+# IDE/editor configs
+.vscode/
+.idea/
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional folders to ignore
+node_modules/
+npm-debug.log
+AppData/
+Downloads/
