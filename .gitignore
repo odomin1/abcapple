@@ -3,6 +3,12 @@
 .project
 .settings/
 .metadata/
+*.bak
+/*.tmp
+/eclipse-workspace/
+/.metadata/
+
+
 
 # Build artifacts
 target/
