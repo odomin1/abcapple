@@ -1,27 +1,59 @@
+/* Remove default margins so banner touches the top */
+body {
+    margin: 0;
+}
+
+/* Banner container */
+.banner {
+    width: 100%;
+    background-color: #f5f0e6;   /* Change color if you want */
+    padding: 20px 0;          /* Top/bottom space inside banner */
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically within the banner */
+}
 
 
- .custom-button {
-      padding: 12px 30px;
-      background-color: #b2f2bb; /* Light green */
-      color: #000;
-      font-size: 16px;
-      font-weight: 600;
-      border: none;
-      border-radius: 6px;
-      box-shadow: 0 4px 0 #8bcf94; /* Bottom shadow */
-      cursor: pointer;
-      transition: background-color 0.3s ease, box-shadow 0.2s ease, transform 0.2s ease;
-    }
 
-    .custom-button:hover {
-      background-color: #a3e9ac; /* Slightly darker green */
-      box-shadow: 0 6px 0 #7fbf85;
-      transform: translateY(-2px);
-    }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-    .custom-button:active {
-      transform: translateY(1px);
-      box-shadow: 0 2px 0 #6fae75;
-    }
+/* Banner */
+.banner {
+    width: 100%;
+    background-color: #111;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.banner-logo {
+    max-width: 320px;
+    width: 100%;
+    height: auto;
+}
 
+/* Centered welcome message */
+.welcome-section {
+    height: 60vh;                 /* Takes up most of the screen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;      /* Vertical center */
+    align-items: center;          /* Horizontal center */
+    text-align: center;
+    padding: 0 20px;
+}
+
+.welcome-section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    max-width: 700px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
